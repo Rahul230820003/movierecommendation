@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Movie Recommendations</h1>
+            <p>Find movies similar to your favorites</p>
+        </header>
+        
+        <main>
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="movie-search" placeholder="Search for a movie...">
+                    <button id="search-button">Search</button>
+                </div>
+                <div id="search-results" class="search-results"></div>
+            </div>
+            
+            <div class="recommendations-container">
+                <h2>Recommended Movies</h2>
+                <div id="recommendations" class="movie-grid"></div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Movie Recommendation App &copy; 2023</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
