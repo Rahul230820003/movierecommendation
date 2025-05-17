@@ -1,10 +1,7 @@
-# movierecommendation
 
 
 
-
-
-```markdown:e:\web\moviesrec\README.md
+          
 # 🎬 Movie Recommendation System
 
 A Flask-based movie recommendation system using content-based filtering with genre similarity.
@@ -49,7 +46,9 @@ A Flask-based movie recommendation system using content-based filtering with gen
 
 4. 🌐 Open http://127.0.0.1:5000/ in your browser
 
+## 📸 Screenshots
 
+*Coming soon!*
 
 ## 🔄 How It Works
 
@@ -64,8 +63,13 @@ This system uses content-based filtering to recommend movies based on genre simi
 
 Contributions, issues, and feature requests are welcome!
 
+## 📝 License
+
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+
 ## 👏 Acknowledgments
 
 - MovieLens dataset for providing the movie data
 - Flask team for the awesome web framework
 - Scikit-learn for machine learning tools
+      
