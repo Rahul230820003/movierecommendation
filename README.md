@@ -46,9 +46,7 @@ A Flask-based movie recommendation system using content-based filtering with gen
 
 4. 🌐 Open http://127.0.0.1:5000/ in your browser
 
-## 📸 Screenshots
 
-*Coming soon!*
 
 ## 🔄 How It Works
 
